@@ -1,6 +1,6 @@
 {
   "name": "@philiprehberger/event-emitter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tiny, fully type-safe event emitter for Node, browser, and edge runtimes",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -8,11 +8,19 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": { "types": "./dist/index.d.ts", "default": "./dist/index.js" },
-      "require": { "types": "./dist/index.d.cts", "default": "./dist/index.cjs" }
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
@@ -23,12 +31,26 @@
     "tsup": "^8.0.0",
     "typescript": "^5.0.0"
   },
-  "keywords": ["events", "emitter", "typed", "type-safe", "pubsub", "lightweight"],
+  "keywords": [
+    "events",
+    "emitter",
+    "typed",
+    "type-safe",
+    "pubsub",
+    "lightweight"
+  ],
   "license": "MIT",
-  "repository": { "type": "git", "url": "git+https://github.com/philiprehberger/event-emitter.git" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philiprehberger/event-emitter.git"
+  },
   "homepage": "https://github.com/philiprehberger/event-emitter#readme",
-  "bugs": { "url": "https://github.com/philiprehberger/event-emitter/issues" },
+  "bugs": {
+    "url": "https://github.com/philiprehberger/event-emitter/issues"
+  },
   "author": "Philip Rehberger",
-  "engines": { "node": ">=18.0.0" },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "sideEffects": false
 }
