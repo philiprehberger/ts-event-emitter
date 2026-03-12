@@ -1,5 +1,5 @@
 {
-  "name": "@philiprehberger/event-emitter",
+  "name": "@philiprehberger/ts-event-emitter",
   "version": "0.2.0",
   "description": "Tiny, fully type-safe event emitter for Node, browser, and edge runtimes",
   "type": "module",
@@ -43,11 +43,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/philiprehberger/event-emitter.git"
+    "url": "git+https://github.com/philiprehberger/ts-event-emitter.git"
   },
-  "homepage": "https://github.com/philiprehberger/event-emitter#readme",
+  "homepage": "https://github.com/philiprehberger/ts-event-emitter#readme",
   "bugs": {
-    "url": "https://github.com/philiprehberger/event-emitter/issues"
+    "url": "https://github.com/philiprehberger/ts-event-emitter/issues"
   },
   "author": "Philip Rehberger",
   "engines": {
