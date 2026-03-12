@@ -1,6 +1,6 @@
 {
   "name": "@philiprehberger/event-emitter",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Tiny, fully type-safe event emitter for Node, browser, and edge runtimes",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -25,7 +25,8 @@
     "build": "tsup",
     "dev": "tsup --watch",
     "typecheck": "tsc --noEmit",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "test": "node --test src/__tests__/index.test.mjs"
   },
   "devDependencies": {
     "tsup": "^8.0.0",

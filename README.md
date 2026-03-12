@@ -81,6 +81,31 @@ const emitter = createEmitter<Events>({
 });
 ```
 
+## API Reference
+
+### `createEmitter<E extends EventMap>(options?: EmitterOptions): Emitter<E>`
+
+Creates a new type-safe emitter. `E` is a record mapping event names to their payload types.
+
+### `EmitterOptions`
+
+| Property | Type | Default | Description |
+|----------|------|---------|-------------|
+| `maxListeners` | `number` | `10` | Warn in console if exceeded. Set to `0` to disable. |
+
+### `Emitter<E>` Methods
+
+| Method | Signature | Description |
+|--------|-----------|-------------|
+| `on` | `(event, listener) => () => void` | Subscribe. Returns unsubscribe function. |
+| `once` | `(event, listener) => () => void` | Subscribe for one emission only. |
+| `off` | `(event, listener) => void` | Remove a specific listener. |
+| `emit` | `(event, data) => void` | Emit an event to all listeners. |
+| `waitFor` | `(event) => Promise<data>` | Returns a promise that resolves on next emission. |
+| `onAny` | `(listener) => () => void` | Listen to all events. Listener receives `(event, data)`. |
+| `offAll` | `(event?) => void` | Remove all listeners for an event, or all listeners if no event given. |
+| `listenerCount` | `(event) => number` | Number of listeners for an event. |
+
 ## License
 
 MIT
