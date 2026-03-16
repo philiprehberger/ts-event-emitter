@@ -1,5 +1,9 @@
 # @philiprehberger/event-emitter
 
+[![CI](https://github.com/philiprehberger/event-emitter/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/event-emitter/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@philiprehberger/event-emitter.svg)](https://www.npmjs.com/package/@philiprehberger/event-emitter)
+[![License](https://img.shields.io/github/license/philiprehberger/event-emitter)](LICENSE)
+
 Tiny, fully type-safe event emitter for Node, browser, and edge runtimes.
 
 ## Installation
