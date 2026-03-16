@@ -1,6 +1,6 @@
 # @philiprehberger/event-emitter
 
-[![CI](https://github.com/philiprehberger/event-emitter/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/event-emitter/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/event-emitter/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/event-emitter/actions/workflows/publish.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/event-emitter.svg)](https://www.npmjs.com/package/@philiprehberger/event-emitter)
 [![License](https://img.shields.io/github/license/philiprehberger/event-emitter)](LICENSE)
 
@@ -137,6 +137,15 @@ Creates a new type-safe emitter. `E` is a record mapping event names to their pa
 | `listenerCount` | `(event) => number` | Number of listeners for an event. |
 | `onceAny` | `(listener) => () => void` | Listen to all events once. Listener receives `(event, data)`. |
 | `eventNames` | `() => (keyof E)[]` | Array of event names that have at least one listener. |
+
+
+## Development
+
+```bash
+npm install
+npm run build
+npm test
+```
 
 ## License
 

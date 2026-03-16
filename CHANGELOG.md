@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.3
+
+- Add Development section to README
+- Fix CI badge to reference publish.yml
+
 ## 0.3.0
 - Add error isolation in `emit()` — one throwing listener no longer prevents subsequent listeners from executing; errors are collected and re-thrown as `AggregateError`
 - Add `onceAny()` method for one-time wildcard listeners
