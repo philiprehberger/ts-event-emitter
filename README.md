@@ -1,6 +1,6 @@
 # @philiprehberger/event-emitter
 
-[![CI](https://github.com/philiprehberger/event-emitter/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/event-emitter/actions/workflows/publish.yml)
+[![CI](https://github.com/philiprehberger/event-emitter/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/event-emitter/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/event-emitter.svg)](https://www.npmjs.com/package/@philiprehberger/event-emitter)
 [![License](https://img.shields.io/github/license/philiprehberger/event-emitter)](LICENSE)
 
@@ -111,11 +111,11 @@ const emitter = createEmitter<Events>({
 });
 ```
 
-## API Reference
+## API
 
 ### `createEmitter<E extends EventMap>(options?: EmitterOptions): Emitter<E>`
 
-Creates a new type-safe emitter. `E` is a record mapping event names to their payload types.
+Creates a new type-safe emitter. `E` is a record mapping event names to their payload types
 
 ### `EmitterOptions`
 
