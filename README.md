@@ -1,8 +1,8 @@
 # @philiprehberger/event-emitter
 
-[![CI](https://github.com/philiprehberger/event-emitter/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/event-emitter/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/ts-event-emitter/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-event-emitter/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/event-emitter.svg)](https://www.npmjs.com/package/@philiprehberger/event-emitter)
-[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/event-emitter)](https://github.com/philiprehberger/event-emitter/commits/main)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/ts-event-emitter)](https://github.com/philiprehberger/ts-event-emitter/commits/main)
 
 Tiny, fully type-safe event emitter for Node, browser, and edge runtimes
 
@@ -150,11 +150,11 @@ npm test
 
 If you find this project useful:
 
-⭐ [Star the repo](https://github.com/philiprehberger/event-emitter)
+⭐ [Star the repo](https://github.com/philiprehberger/ts-event-emitter)
 
-🐛 [Report issues](https://github.com/philiprehberger/event-emitter/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+🐛 [Report issues](https://github.com/philiprehberger/ts-event-emitter/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
 
-💡 [Suggest features](https://github.com/philiprehberger/event-emitter/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+💡 [Suggest features](https://github.com/philiprehberger/ts-event-emitter/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
 
 ❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
 
